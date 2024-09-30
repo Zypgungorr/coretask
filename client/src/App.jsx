@@ -9,10 +9,10 @@ function App() {
     <Router>
       <div>
         <Routes>
-          <Route path="/" element={<Navigate to="/login" />} />  {/* İlk açılışta login sayfasına yönlendir */}
+          <Route path="/" element={<Navigate to="/login" />} />  
           <Route path="/login" element={<Login />} />   
           <Route path="/register" element={<Register />} /> 
-          <Route path="/homepage" element={<Homepage />} /> {/* Giriş başarılı olursa anasayfaya yönlendirme */}
+          <Route path="/homepage" element={<Homepage />} /> 
         </Routes>
       </div>
     </Router>
